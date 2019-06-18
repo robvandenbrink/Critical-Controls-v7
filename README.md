@@ -1,0 +1,1 @@
+This repo outlines various scripts to implement the CIS Critical Controls
