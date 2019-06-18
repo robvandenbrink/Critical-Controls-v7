@@ -1,2 +1,1 @@
-Critical Control 10 
-Scripts in support of CIS Critical Control 10 
+Scripts in Support of CIS Critical Controls 10 

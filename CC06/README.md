@@ -1,2 +1,1 @@
-Critical Control 06 
-Scripts in support of CIS Critical Control 06 
+Scripts in Support of CIS Critical Controls 06 

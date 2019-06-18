@@ -1,2 +1,1 @@
-Critical Control 03 
-Scripts in support of CIS Critical Control 03 
+Scripts in Support of CIS Critical Controls 03 

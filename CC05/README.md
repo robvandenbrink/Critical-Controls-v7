@@ -1,2 +1,1 @@
-Critical Control 05 
-Scripts in support of CIS Critical Control 05 
+Scripts in Support of CIS Critical Controls 05 

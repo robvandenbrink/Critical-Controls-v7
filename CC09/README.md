@@ -1,2 +1,1 @@
-Critical Control 09 
-Scripts in support of CIS Critical Control 09 
+Scripts in Support of CIS Critical Controls 09 
