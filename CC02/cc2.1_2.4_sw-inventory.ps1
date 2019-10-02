@@ -5,7 +5,7 @@ foreach ($pc in $pcs) {
     $i+=1
     write-host $i
     if (Test-Connection -ComputerName $pc.DNSHostName -count 2 -Quiet) {
-    $appsonpc = Get-WmiObject -Class Win32_Product -computername . | select pscomputername, vendor, name, version, installdate
+    $appsonpc = Get-WmiObject -Class Win32_Product -computername $pc.DNSHostName | select pscomputername, vendor, name, version, installdate
     $domainapps += $appsonpc
 }
 }
