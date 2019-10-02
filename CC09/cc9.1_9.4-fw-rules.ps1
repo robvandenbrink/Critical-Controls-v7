@@ -27,6 +27,7 @@ foreach ($pc in $pcs) {
 }
 }
 $fwinfo | export-csv -path ./fwstate.csv
+$fwrules | export-csv -path ./fwrules.csv
 
 
 
