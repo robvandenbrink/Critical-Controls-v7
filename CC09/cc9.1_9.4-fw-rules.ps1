@@ -6,7 +6,8 @@ foreach ($pc in $pcs) {
     write-host $i
     $tempval = new-object psobject
     if (Test-Connection -ComputerName $pc.DNSHostName -count 2 -Quiet) {
-    $tempval = Get-NetFirewallProfile -PolicyStore activestore | select name, enabled, defaultinboundaction, DefaultOutboundAction
+    $Computer = $pc.DNSHostname
+    $tempval = Get-NetFirewallProfile -ComputerName $Computer -PolicyStore activestore | select name, enabled, defaultinboundaction, DefaultOutboundAction
     $tempval | add-member -membertype noteproperty -name HostName -value $pc.dnshostname
     $tempval | add-member -membertype noteproperty -name OperatingSystem -value $pc.OperatingSystem
     $tempval | add-member -membertype noteproperty -name IpAddress -value $pc.IPV4Address
