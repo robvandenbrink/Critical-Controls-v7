@@ -1,5 +1,5 @@
 $pcs = get-adcomputer -filter * -property Name,OperatingSystem,Operatingsystemversion,LastLogonDate,IPV4Address
-$patchinfo = @()
+$domainapps = @()
 $i=0
 foreach ($pc in $pcs) {
     $i+=1
