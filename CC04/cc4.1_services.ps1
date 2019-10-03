@@ -5,8 +5,14 @@ $vallist = @()
 foreach ($targethost in $targets) {
   write-host $i  $targethost.DNSHostName
   if (Test-Connection -ComputerName $targethost.DNSHostName -count 2 -Quiet) {
-    $vallist += Get-WmiObject Win32_service -Computer $targethost.DNSHostName | select-object systemname, displayname, startname, state
+    $SVClist += Get-WmiObject Win32_service -Computer $targethost.DNSHostName | select-object systemname, displayname, startname, state
     ++$i 
     }
   }
-$vallist | export-csv services.csv
+$SVClist | export-csv services.csv
+
+
+$goodservices = @("LocalSystem","LocalService","NetworkService","NT AUTHORITY\LocalService","NT AUTHORITY\NetworkService")
+$temp1 = $SVClist | where-object {$goodservices -notcontains $_.startname}
+$badservices = $b | where-object { $_.startname.length -gt 0 }
+$badservices | export-csv badservices.csv
