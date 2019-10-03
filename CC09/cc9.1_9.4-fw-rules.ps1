@@ -18,7 +18,7 @@ foreach ($pc in $pcs) {
     $tempval2 | add-member -membertype noteproperty -name IpAddress -value $pc.IPV4Address
     if ($tempval.count -gt 0) {
         $tempval | add-member -membertype noteproperty -name HostName -value $pc.dnshostname
-        $tempval | add-member -membertype noteproperty -name OperatingSystem -value $pc.OperatingSystem
+        $tempval | add-member -membertype noteproperty -name OperatingSystem -value $Computer
         $tempval | add-member -membertype noteproperty -name IpAddress -value $pc.IPV4Address
         }
            
