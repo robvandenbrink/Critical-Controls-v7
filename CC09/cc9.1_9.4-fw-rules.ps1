@@ -7,13 +7,13 @@ foreach ($pc in $pcs) {
     write-host $i
     $tempval = new-object psobject
     if (Test-Connection -ComputerName $pc.DNSHostName -count 2 -Quiet) {
-    $Computer = $pc.DNSHostname
+    $TGTComputer = New-CIMSession -Computername $pc.DNSHostname
     # get state
-    $tempval = Get-NetFirewallProfile -cimsession $Computer -PolicyStore activestore | select name, enabled, defaultinboundaction, DefaultOutboundAction
+    $tempval = Get-NetFirewallProfile -cimsession $TGTComputer -PolicyStore activestore | select name, enabled, defaultinboundaction, DefaultOutboundAction
     # get rules
-    $tempval2 = get-NetFirewallRule -cimsession $Computer 
+    $tempval2 = get-NetFirewallRule -cimsession $TGTComputer 
     # add workstation fields
-    $tempval2 | add-member -membertype noteproperty -name HostName -value $Computer
+    $tempval2 | add-member -membertype noteproperty -name HostName -value $pc.DNSHostName
     $tempval2 | add-member -membertype noteproperty -name OperatingSystem -value $pc.OperatingSystem
     $tempval2 | add-member -membertype noteproperty -name IpAddress -value $pc.IPV4Address
     if ($tempval.count -gt 0) {
