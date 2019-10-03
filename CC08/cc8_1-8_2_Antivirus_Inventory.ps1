@@ -6,9 +6,10 @@ foreach ($pc in $pcs) {
     write-host $i
     if (Test-Connection -ComputerName $pc.DNSHostName -count 2 -Quiet) {
     $Computer = $pc.DNSHostName
-    $AntiVirusProduct = Get-WmiObject -Namespace "root\SecurityCenter2" -Query $wmiQuery  @psboundparameters # -ErrorVariable myError -ErrorAction 'SilentlyContinue' -Computer $Computer
+    $wmiQuery = "SELECT * FROM AntiVirusProduct"
+    $AntiVirusProduct = Get-WmiObject -ComputerName $computer -Namespace "root\SecurityCenter2" -Query $wmiQuery  @psboundparameters 
 
-    $AVapps += $AntiVirusProduct
+    $AVapps += $AntiVirusProduct.displayName
 }
 }
 $avapps | export-csv -path ./avapps.csv
