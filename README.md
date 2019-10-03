@@ -8,5 +8,7 @@ Many of these scripts take advantage of Active Directory, but they can be easily
 In a multi-OS environment, PowerShell can still be used, but OSSEC may be a better fit - the approach remains the same though, no matter what the underlying API calls might be.
 
 If any errors are found, or if you have suggestions for improvement, please contact me directly at:
+
 rob@coherentsecurity.com
+
 https://www.coherentsecurity.com
