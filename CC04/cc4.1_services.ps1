@@ -9,7 +9,7 @@ foreach ($targethost in $targets) {
     ++$i 
     }
   }
-$SVClist | export-csv services.csv
+$SVClist | export-csv allservices.csv
 
 
 $goodservices = @("LocalSystem","LocalService","NetworkService","NT AUTHORITY\LocalService","NT AUTHORITY\NetworkService")
