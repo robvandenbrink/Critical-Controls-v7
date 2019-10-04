@@ -29,3 +29,7 @@ Older Blogs:
 Critical Control 2 - Inventory of Authorized and Unauthorized Software
 
 https://isc.sans.edu/forums/diary/Critical+Control+2+Inventory+of+Authorized+and+Unauthorized+Software/11728/
+
+Collecting Workstation / Software Inventory Several Ways
+
+https://isc.sans.edu/forums/diary/Collecting+Workstation+Software+Inventory+Several+Ways/18125/
