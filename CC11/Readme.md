@@ -20,3 +20,8 @@ https://isc.sans.edu/forums/diary/Layer+2+Network+Protections+reloaded/7708/
 Using a Cisco Router as a “Remote Collector” for tcpdump or Wireshark
 
 https://isc.sans.edu/forums/diary/Using+a+Cisco+Router+as+a+Remote+Collector+for+tcpdump+or+Wireshark/7609/
+
+Layer 2 Security - Private VLANs (the Story Continues ...)
+
+https://isc.sans.edu/forums/diary/Layer+2+Security+Private+VLANs+the+Story+Continues/8785/
+
