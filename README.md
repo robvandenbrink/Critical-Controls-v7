@@ -32,7 +32,7 @@ A great audit tool for the Critical Controls can be found at auditscripts.com:
 
 https://www.auditscripts.com/download/4229/
 
-In a multi-OS environment, PowerShell can still be used, but depending on your environment OSSEC may also be a good fit - the approach remains the same though, no matter what the underlying API calls might be.
+In a multi-OS environment, PowerShell can still be used, but depending on your environment OSSEC, Ansible, Puppet or Chef may also be a good fits - the approach remains the same though, no matter what the underlying API calls might be.
 
 If any errors are found, or if you have suggestions for improvement, please contact me directly at:
 
