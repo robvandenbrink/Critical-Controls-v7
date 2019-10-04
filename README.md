@@ -5,7 +5,7 @@ Blogs that reference or document these scripts are also listed
 The Sector 2019 Powerpoint outlines the use of PowerShell to Assess and/or Implement these controls in a Corporate environment.
 Many of these scripts take advantage of Active Directory, but they can be easily modified to use IP addresses or ranges instead
 
-In a multi-OS environment, PowerShell can still be used, but OSSEC may be a better fit - the approach remains the same though, no matter what the underlying API calls might be.
+In a multi-OS environment, PowerShell can still be used, but depending on your environment OSSEC may also be a good fit - the approach remains the same though, no matter what the underlying API calls might be.
 
 If any errors are found, or if you have suggestions for improvement, please contact me directly at:
 
