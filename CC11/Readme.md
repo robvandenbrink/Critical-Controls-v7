@@ -1,5 +1,5 @@
 
-Scripts and Blogs in support of Critical Control 11
+Scripts and Blogs in support of Critical Control 11 - Secure Configuration for Network Devices
 
 RTRBK - Router / Switch / Firewall Backups in PowerShell (tool drop)
 
