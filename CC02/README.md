@@ -23,3 +23,9 @@ https://isc.sans.edu/forums/diary/Using+Powershell+in+Basic+Incident+Response+A+
 Finding the Gold in a Pile of Pennies - Long Tail Analysis in PowerShell
 
 https://isc.sans.edu/forums/diary/Finding+the+Gold+in+a+Pile+of+Pennies+Long+Tail+Analysis+in+PowerShell/25074/
+
+Older Blogs:
+
+Critical Control 2 - Inventory of Authorized and Unauthorized Software
+
+https://isc.sans.edu/forums/diary/Critical+Control+2+Inventory+of+Authorized+and+Unauthorized+Software/11728/
