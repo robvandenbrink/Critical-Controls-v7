@@ -1,4 +1,4 @@
-Scripts in Support of CIS Critical Controls 09 
+Scripts in Support of CIS Critical Control 09  - Limitation and Control of Network Ports
 
 Powershell, Active Directory and the Windows Host Firewall
 
