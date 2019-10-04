@@ -1,4 +1,8 @@
-Scripts in Support of CIS Critical Controls 03 
+Scripts and Blogs in Support of CIS Critical Control 03 - Continuous Vulnerability Management
+
+"Too Important to Patch" - Wait? What?
+
+https://isc.sans.edu/forums/diary/Too+Important+to+Patch+Wait+What/11167/
 
 Struts Vulnerability CVE-2017-5638 on VMware vCenter - the Gift that Keeps on Giving
 
