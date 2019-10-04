@@ -1,4 +1,4 @@
-Scripts and Blogs in Support of CIS Critical Controls 04 
+Scripts and Blogs in Support of CIS Critical Controls 04 - Controlled Use of Administrative Privilege
 
 Microsoft LAPS - Blue Team / Red Team
 
