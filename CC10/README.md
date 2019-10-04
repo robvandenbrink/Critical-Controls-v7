@@ -1,1 +1,3 @@
-Scripts in Support of CIS Critical Controls 10 
+Scripts and Blogs in Support of CIS Critical Control 10 - Data Recovery Capability
+
+
