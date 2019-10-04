@@ -1,1 +1,1 @@
-Scripts in Support of CIS Critical Controls 08 
+Scripts in Support of CIS Critical Control 08  - Malware Defenses
