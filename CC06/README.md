@@ -1,5 +1,5 @@
 
-Scripts and Blogs in Support of CIS Critical Controls 06 
+Scripts and Blogs in Support of CIS Critical Control 06  - Maintenance, Monitoring and Analysis of Audit Logs
 
 CC6.7: Investigating Gaps in your Windows Event Logs
 
