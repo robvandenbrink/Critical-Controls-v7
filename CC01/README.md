@@ -1,4 +1,4 @@
-Scripts in Support of CIS Critical Controls 01 
+Scripts and Blogs in Support of CIS Critical Control 01 - Inventory and Control of Hardware Assets
 
 Using AD to find hosts that aren't in AD - fun with the [IPAddress] construct!
 
