@@ -1,10 +1,8 @@
-Scripts in Support of CIS Critical Controls 02 
+Scripts and Blogs in Support of CIS Critical Controls 02  - Inventory and Control of Software Assets
 
 The Powershell Diaries 2 - Software Inventory
 
 https://isc.sans.edu/forums/diary/The+Powershell+Diaries+2+Software+Inventory/19851/
-
-
 
 Uninstalling Problem Applications using Powershell
 
