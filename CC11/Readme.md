@@ -25,3 +25,7 @@ Layer 2 Security - Private VLANs (the Story Continues ...)
 
 https://isc.sans.edu/forums/diary/Layer+2+Security+Private+VLANs+the+Story+Continues/8785/
 
+Secure Configurations for Network Devices such as Firewalls, Routers, and Switches 
+
+https://isc.sans.edu/forums/diary/Critical+Control+4+Secure+Configurations+for+Network+Devices+such+as+Firewalls+Routers+and+Switches/11746/
+
