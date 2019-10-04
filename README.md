@@ -28,7 +28,7 @@ The 20 Controls (version 7) are:
     19/ Incident Response and Management
     20/ Penetration Tests and Red Team Exercises
 
-A great audit tool for the Critical Controls ca nbe found at auditscripts.com: 
+A great audit tool for the Critical Controls can be found at auditscripts.com: 
 
 https://www.auditscripts.com/download/4229/
 
