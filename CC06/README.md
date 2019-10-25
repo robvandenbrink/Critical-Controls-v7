@@ -5,6 +5,10 @@ CC6.7: Investigating Gaps in your Windows Event Logs
 
 https://isc.sans.edu/forums/diary/Investigating+Gaps+in+your+Windows+Event+Logs/25328/
 
+DNS Log Forensics / Archeology using Powershell:
+
+https://isc.sans.edu/forums/diary/More+on+DNS+Archeology+with+PowerShell/25452/
+
 What's My Firewall Telling Me? (Part 4)  (Netflow)
 
 https://isc.sans.edu/forums/diary/Whats+My+Firewall+Telling+Me+Part+4/8395/
