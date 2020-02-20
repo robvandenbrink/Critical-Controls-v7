@@ -21,7 +21,7 @@ foreach($DC in $AllDCs) {
         $events += Get-WinEvent -FilterHashtable $filter -ComputerName $DC.Hostname
         }
     }
-
+ 
 # filter to network logins only (Logon Type 3), userid and ip address only
 $b = $events | where { $_.properties[8].value -eq 3 } | `
      select-object @{Name ="user"; expression= {$_.properties[5].value}}, `
