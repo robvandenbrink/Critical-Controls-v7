@@ -28,3 +28,6 @@ As Your Admin Walks Out the Door:
 
 https://isc.sans.edu/forums/diary/As+Your+Admin+Walks+Out+the+Door/22530/
 
+No IOCs? No Problem! Getting a Start Hunting for Malicious Office Files
+
+https://isc.sans.edu/forums/diary/No+IOCs+No+Problem+Getting+a+Start+Hunting+for+Malicious+Office+Files/26026/
