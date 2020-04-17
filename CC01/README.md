@@ -15,3 +15,6 @@ https://isc.sans.edu/forums/diary/The+Other+Side+of+Critical+Control+1+8021x+Wir
 DNS and DHCP Recon using Powershell
 
 https://isc.sans.edu/diary/DNS+and+DHCP+Recon+using+Powershell/20995
+
+Using DHCP as an input to Inventory / Using DHCP to alert on new hosts
+
