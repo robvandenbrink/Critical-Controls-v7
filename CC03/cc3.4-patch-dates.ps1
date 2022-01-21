@@ -5,10 +5,10 @@ $count = $pcs.count
 foreach ($pc in $pcs) {
     $i+=1
     # keep total progress count 
-    write-host "Host" $i "of" $count "is being assessed"
+    write-host "Host" $i "of" $count "is being checked"
     if (Test-Connection -ComputerName $pc.DNSHostName -count 2 -Quiet) {
         # echo the host being assessed (only live hosts hit this print)
-        write-host $pc.dnshostname "is being assessed"
+        write-host $pc.dnshostname "is up, and is being assessed"
         $tempval = new-object psobject
         $lasthf = get-hotfix -computername $pc.dnshostname | sort InstalledOn | select -last 1  
         $tempval | add-member -membertype noteproperty -name Name -value $pc.dnshostname
