@@ -1,3 +1,7 @@
+# added this line to permit lower TLS versions, in case the platform running this script only supports TLSv1.3
+# because the MS catalog site only supports 1.2
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls -bor [Net.SecurityProtocolType]::Tls11 -bor [Net.SecurityProtocolType]::Tls12
+
 $pcs = get-adcomputer -filter * -property Name,OperatingSystem,Operatingsystemversion,LastLogonDate,IPV4Address
 $patchinfo = @()
 $i=0
@@ -13,7 +17,8 @@ foreach ($pc in $pcs) {
         $hfs = get-hotfix -computername $pc.dnshostname | sort -descending InstalledOn
         foreach ($hf in $hfs) {
                 $kbnum = $hf.hotfixid
-                $WebResponse = Invoke-WebRequest "https://www.catalog.update.microsoft.com/Search.aspx?q=$kbnum"
+                $lnk = "https://www.catalog.update.microsoft.com/Search.aspx?q="+$kbnum
+                $WebResponse = Invoke-WebRequest $lnk
                 $returntable = $WebResponse.ParsedHtml.body.getElementsByTagName("table") | Where {$_.className -match "resultsBorder"}
                 # write-host $returntable.outertext # uncomment if debugging
                 if ($returntable.outertext -like "*Cumulative*")  {
